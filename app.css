@@ -10,8 +10,6 @@
 
 body{
 height: 100vh;
-background-color: #fff;
-background-image: url('images/hero-img.svg');
 /* to center a background image */
 background-size: cover;
 background-position: center;
@@ -24,8 +22,8 @@ li{
 
 a{
     text-decoration: none;
-    color: #fff;
-    font-size: 1rem;
+    color: unset;
+   
 }
 
 a:hover{
@@ -51,13 +49,15 @@ header{
 .navbar .logo a{
     font-size: 1.5rem;
     font-weight: bold;
-    color: #000;
+    
 }
 
 .navbar .links{
     display: flex;
-    gap: 2rem;
-    color: rgba(122, 105, 96);
+    gap: 1.6rem;
+    color: rgb(122, 102, 96);
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .navbar .toggle_btn{
@@ -88,6 +88,12 @@ header{
 .action_btn:active{
     scale: 0.95; 
 }
+
+.logo::first-letter{
+    color: orange;
+}
+
+
 
 /* DROPDOWN MENU */
 .dropdown_menu{
@@ -151,6 +157,10 @@ section#hero{
 
     .dropdown_menu {
         display: block;
+    }
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
     }
 }
 
