@@ -179,7 +179,15 @@ header {
 }
 
 /* HERO */
-
+.home-container {
+  width: 100%;
+  /* height: 45px; */
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px) {
   .navbar .links,
