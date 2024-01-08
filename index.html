@@ -1,58 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="app.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="app.css" />
     <title>TGNETWORK PORTFOLIO</title>
-</head>
-<body>
-  <header>
-  <div class="navbar">
-<div class="logo"><a href="">TGNETWORK</a></div>
-<ul class="links">
- <li><a href="hero">Home</a></li>
- <li><a href="about">About</a></li>
- <li><a href="skill">Skill</a></li>
- <li><a href="services">Services</a></li>
- <li><a href="contact">Contact</a></li>
- <li><a href="" class="action_btn">Get Started</a></li>
-</ul>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo"><a href="">TGNETWORK</a></div>
+        <ul class="links">
+          <li class="home"><a href="home">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="skill">Skill</a></li>
+          <li><a href="services">Services</a></li>
+          <li><a href="contact">Portfolio</a></li>
+          <li><a href="" class="action_btn">Contact Me</a></li>
+        </ul>
 
-<div style="color: rgba(0, 0, 0, .55);" class="toggle_btn"><i class="fa-solid fa-bars"></i>
-</div>
-    </div>
+        <div style="color: rgba(0, 0, 0, 0.55)" class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
 
-    <div class="dropdown_menu">
-      <li><a href="hero">Home</a></li>
-      <li><a href="about">About</a></li>
-      <li><a href="services">Services</a></li>
-      <li><a href="contact">Contact</a></li>
-      <li><a href="" class="action_btn">Get Started</a></li>
-    </div>
-  </header>  
+      <div class="dropdown_menu">
+        <li class="home"><a href="home">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="services">Services</a></li>
+        <li><a href="contact">Portfolio</a></li>
+        <li><a href="" class="action_btn">Contact Me</a></li>
+      </div>
+    </header>
 
-  <main>
-    <section id="hero">
-      <h1>welcome</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis <br> beatae provident veniam iure fugit, officiis earum deserunt inventore nihil? Nemo voluptates rerum est architecto, illo eaque error explicabo.</p>
-    </section>
-  </main>
+    <main>
+      <section id="hero">
+        <div class="home-container">
+          <div class="home-data">
+            <span>Hello</span>
+            <h2>I'm THANKGOD OGBONNA</h2>
+            <p>
+              A Web developer and UI/UX Designer offering Seamless experiences
+              for you and the use of your websites
+            </p>
+          </div>
 
-  <script>
-    const toggleBtn = document.querySelector('.toggle_btn')
-    const toggleBtnIcon = document.querySelector('.toggle_btn  i')
-    const dropDownMenu = document.querySelector('.dropdown_menu')
+          <div class="home-image"></div>
+        </div>
+      </section>
+    </main>
 
-    toggleBtn.onclick = function () {
-      dropDownMenu.classList.toggle('open')
-      const isOpen = dropDownMenu.classList.contains('open') 
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn  i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
 
-      toggleBtnIcon.classList = isOpen
-      ? "fa-solid fa-xmark"
-      : "fa-solid fa-bars"
-    }
-  </script> 
-</body>
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
+  </body>
 </html>
