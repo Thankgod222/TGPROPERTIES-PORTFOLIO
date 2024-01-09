@@ -24,19 +24,8 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
-h1,
-h2,
-h3 {
-  color: black;
-  font-weight: 1.25rem;
-}
-
 ul {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 button {
@@ -174,37 +163,35 @@ header {
 /* HERO */
 
 .home-container {
-  /* width: 100%; */
+  width: 100%;
+  height: 100vh;
   max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
-  padding: 0 2rem;
-  display: flex;
-  place-items: center;
 }
 
 .home-data {
-  width: 50%;
-  height: 50%;
-  line-height: 60px;
-  margin: auto;
 }
-
-.home-image {
-  width: 50%;
-  height: 50%;
-  line-height: 60px;
-  margin: auto;
-}
-
 .home-data span {
-  font-size: 27px;
-  font-weight: 600;
   color: orange;
+  font-weight: 600;
   font-style: normal;
-  line-height: 36px;
+  font-size: 2rem;
+  line-height: 3.4rem;
 }
+
+.home-data h2 {
+  line-height: 4.2rem;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.home-data p {
+  line-height: 1.6rem;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px) {
   .navbar .links,
