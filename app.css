@@ -173,14 +173,9 @@ header {
 
 /* HERO */
 
-section#hero {
-  display: grid;
-  place-items: center;
-}
 .home-container {
-  width: 100%;
+  /* width: 100%; */
   max-width: 1320px;
-  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -189,11 +184,19 @@ section#hero {
   place-items: center;
 }
 
-/* .home-data {
+.home-data {
+  width: 50%;
+  height: 50%;
+  line-height: 60px;
   margin: auto;
-  width: 94%;
- 
-} */
+}
+
+.home-image {
+  width: 50%;
+  height: 50%;
+  line-height: 60px;
+  margin: auto;
+}
 
 .home-data span {
   font-size: 27px;
