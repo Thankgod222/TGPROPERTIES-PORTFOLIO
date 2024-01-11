@@ -156,8 +156,7 @@ header {
 }
 
 /* HERO */
-.hero-content {
-}
+
 .home-container {
   width: 100%;
   height: 100%;
@@ -166,25 +165,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.home-data {
-}
-.home-data span {
-  color: orange;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2rem;
-  position: relative;
-  bottom: 80px;
-}
-
-.home-data h2 {
-  line-height: 4.2rem;
-  font-size: 2rem;
-  font-weight: bo;
-  position: relative;
-  bottom: 60px;
 }
 
 .home-data p {
