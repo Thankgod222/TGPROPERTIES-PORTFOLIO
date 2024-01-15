@@ -149,7 +149,17 @@ header {
 }
 
 /* MAIN */
+.home-image {
+  display: table;
+}
 
+.home-image img {
+  vertical-align: middle;
+  display: table-cell;
+  display: block;
+  height: auto;
+  width: 100%;
+}
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px) {
   .navbar .links,
