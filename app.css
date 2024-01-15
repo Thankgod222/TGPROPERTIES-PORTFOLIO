@@ -155,21 +155,7 @@ header {
   justify-content: center;
 }
 
-/* HERO */
-
-.home-container {
-  width: 100%;
-  height: 100%;
-  max-width: 1320px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.home-data p {
-  line-height: 1.6rem;
-}
+/* MAIN */
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 992px) {
